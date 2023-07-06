@@ -1,0 +1,154 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.menuber{
+    display: flex;
+    background-color: rgb(53, 52, 52);
+    color: whitesmoke;
+    align-items: center;
+    justify-content: space-around;
+    padding: 15px;
+}
+
+.menu-item{
+    display: flex;
+    list-style: none;
+}
+.list{
+    margin-left: 15px;
+    padding: 07px;
+    border-radius: 5px;
+}
+.list:hover{
+    color: blue;
+    background-color: whitesmoke;
+    cursor: pointer;
+}
+
+.banner{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    height: 100vh;
+    color: white;
+    background-image: url(./images/background.png), linear-gradient(45deg, #0c0c0c, #353434);
+}
+
+.banner-text h1{
+    font-size: 3em;
+    padding: 15px;
+}
+.banner-btn{
+    padding: 10px;
+    border-radius: 5px;
+    background-color: red;
+    margin-top: 15px;
+    border: none;
+    color: white;
+    cursor: pointer;
+}
+
+.banner-btn:hover{
+    color: red;
+    background-color: #fff;
+    font-weight: 700;
+}
+
+.about-text{
+    font-size: 3em;
+    padding: 20px;
+    text-align: center;
+}
+.about-section{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.about-btn{
+    padding: 10px;
+    border-radius: 5px;
+    background-color: red;
+    margin-top: 15px;
+    border: none;
+    color: white;
+    cursor: pointer;
+}
+.service-text{
+    font-size: 3em;
+    padding: 20px;
+    text-align: center;
+    color: white;
+    margin-top: 55px;
+}
+
+.box{
+    box-shadow: 10px 10px 25px gray;
+    height: 260px;
+    width: 180px;
+    background-color: #0c0c0c;
+    text-align: center;
+    padding: 15px;
+    color: white;
+    border-radius: 10px;
+}
+.box-h3{
+    margin-top: 15px
+
+}
+.box-text{
+    margin-top: 10px;
+}
+.box-btn{
+    margin-top: 20px;
+    padding: 8px;
+    cursor: pointer;
+    border: none;
+    border-radius: 5px;
+}
+.box-1 button:hover{
+    color: white;
+    background-color: red;
+    
+}
+.box-service{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    padding: 30px;
+}
+.service-section{
+    background-image: url(./images/background.png), linear-gradient(45deg, #0c0c0c, #353434);
+}
+.footer-list{
+    list-style: none;
+    margin-top: 15px;
+}
+.footer-tag{
+    background-color: black;
+}
+.content{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    padding: 85px;
+    background-color: black;
+    color: white;
+}
+.footer-text{
+    margin-top: 15px;
+    line-height: 1.5;
+}
+.hr-tag{
+    background-color: black;
+    padding: 25px;
+}
+.hr{
+    color: white;
+    margin: 15px;
+}
+.ht-text{
+    color: white;
+    text-align: center;
+}
